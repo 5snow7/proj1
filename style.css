@@ -1,0 +1,9 @@
+#can1{border:red double 10px;}
+
+#but1{position:absolute;left:850px;top:50px;border:green solid 5px;}
+#but2{position:absolute;left:850px;top:100px;border:green solid 5px;}
+#but3{position:absolute;left:850px;top:150px;border:green solid 5px;}
+#text1{position:absolute;left:850px;top:200px;border:green solid 5px;padding:5px;width:100px;}
+
+#par1{position:absolute;left:850px;top:230px;border:green solid 5px;padding:10px;}
+#par2{position:absolute;border:red 5px solid;padding:5px;}

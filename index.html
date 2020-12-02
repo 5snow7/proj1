@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+    <title>proj1</title>
+
+    <script src="sketch.js"></script>
+    <script src="logo.js"></script>
+    <script src="stuff.js"></script>
+	<script src="stuff2.js"></script> 
+    <script src="line.js"></script>  
+	<script src="move.js"></script>  
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  
+  <body id="bod1" onclick="sq(t,40)">
+  <canvas id="can1" width="800" height="500" >A CANVAS</canvas>
+ 
+  <input type="button" id="but1" value="click to run" onclick="start()">
+  <input type="button" id="but2" value="clear Canvas" onclick="clear_Can()">
+  <input type="button" id="but3" value="tessel" onclick="tess()">
+   <input type="text" id="text1" value="2,5,40,6,10,6" onclick="stars()">
+   <p id="par1" onclick="prtout()">test par</p>
+   <p id="par2">Moving</p>
+   
+</body>
+
+<script>let t,tS;let cnt=1;let str;let strAr;
+t=new logo(300,100,0,"can1");
+tS=new logo(100,200,0,"can1");
+let key=document.getElementById("bod1");
+key.addEventListener("keydown",funcs);
+let x = document.getElementById("but3");
+x.addEventListener("mouseover", poly1);
+x.addEventListener("mouseout",stars);
+let cnting=0;
+let tPrt=new logo(300,300,0,"can1");
+let newLen=10;
+let p2=document.getElementById("par2");
+p2.style.top="200px";
+let st;
+  /*document.getElementById("inp1").addEventListener("keyup", func2);
+ */
+</script>
+ 
+
+</html>
